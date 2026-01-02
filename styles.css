@@ -275,6 +275,7 @@ body {
     position: relative;
     width: 350px;
     height: 350px;
+    aspect-ratio: 1 / 1;
 }
 
 .profile-image {
@@ -300,6 +301,8 @@ body {
     object-fit: cover;
     object-position: center;
     transition: transform 0.3s ease;
+    display: block;
+    aspect-ratio: 1 / 1;
 }
 
 .profile-photo:hover {
